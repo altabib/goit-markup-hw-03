@@ -63,8 +63,6 @@ p {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-  
-   
   }
 
 /*Header*/
@@ -333,7 +331,7 @@ color: var(--accent-color-text);
 
  /*Portfolio*/
 
- .head-porflolio {
+ .main-nav {
     border-bottom: 1px solid var(--first-bord);
  }
  
