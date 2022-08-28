@@ -318,6 +318,9 @@ margin-bottom: 10px;
     padding-top:60px ;
     padding-bottom: 60px;
 }
+.address {
+    margin-top: 20px;
+}
 .footer-logo {
     color: var(--three-color-text);
 }
@@ -347,7 +350,16 @@ color: var(--accent-color-text);
 .footer-address-two:focus {
 color: var(--accent-color-text);
 }
+.footer-address link {
+margin-bottom: 9px;
+}
 
+footer-address-two link {
+margin-bottom: 9px;
+}
+.footer-address-two link>li:last-child {
+    margin-right: 0;
+}
  /*Portfolio*/
 
  .main-nav {
@@ -405,9 +417,12 @@ color: var(--accent-color-text);
 }
 .container-portfolio {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
     flex-wrap: wrap;
+}
+.filter-link:last-child {
+    margin-right: 0;
 }
 .portfolio-link {
     margin-right: 30px;
