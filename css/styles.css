@@ -20,7 +20,7 @@
     font-family: var(--main-font);
     color: var(--main-color-text);
     font-size: 14px;
-    line-height: 1.14;
+    /*line-height: 1.14;*/
     letter-spacing: 0.03em;
 }
 /* reset */
@@ -33,9 +33,21 @@ h6,
 p {
   margin: 0;
 }
-
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+address {
+    font-size: nomal;
+}
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
   .link {
     text-decoration: none;
+    // color: inherit;
   }
   .button {
     font-family: inherit;
@@ -70,10 +82,10 @@ p {
     display: flex;
     align-items: center;
 }
-.link {
+/*.link {
     padding-top: 32px;
     padding-bottom: 32px;
-}
+}*/
 .logo link {
     margin-right: 93px;
 }
@@ -184,7 +196,7 @@ color: var(--three-color-text)
 
 }
 .contact-header {
-    margin-left: auto;
+    /*margin-left: auto;*/
     display: flex;
 }
 
@@ -196,11 +208,12 @@ color: var(--three-color-text)
     gap: 30px;
 }
 .wtitle {
-    padding-top: 94px;
-    padding-bottom: 10px;
+    /*padding-top: 94px;*/
+    /*padding-bottom: 10px;*/
+    margin-bottom: 10px;
 }
 .subtitle {
-padding-bottom: 118px;
+/*padding-bottom: 118px;*/
 }
 .visually-hidden {
     position: absolute;
@@ -240,9 +253,10 @@ padding-bottom: 118px;
 /*what we are doing*/
 
 .section-title {
-    padding-bottom: 50px;
-    padding-left: auto;
-    padding-right: auto;
+    /*padding-bottom: 50px;*/
+    margin-bottom: 50px;
+    /*padding-left: auto;
+    padding-right: auto;*/
 }
 .doingv-list {
     display: flex;
@@ -253,6 +267,7 @@ padding-bottom: 118px;
 /*Team*/
 .team {
 background-color: var(--second-bg);
+padding: 94 0;
 }
 .section-title {
     padding-bottom: 50px;
@@ -263,13 +278,13 @@ background-color: var(--second-bg);
     gap: 30px;
 }
 .img-team {
-margin-bottom: 30px;
+/*margin-bottom: 30px;*/
 }
 .team-title {
 margin-bottom: 10px;
 }
 .team-text {
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
 .team-card {
     background-color: var(--three-color-text);
@@ -278,7 +293,7 @@ margin-bottom: 10px;
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     width: 270px;
-    height: 368px;
+    /*height: 368px;*/
 }
 .team-title {
     font-weight: 500;
@@ -293,6 +308,10 @@ margin-bottom: 10px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-color-text);
+}
+.team-h {
+    padding-top: 30px;
+    padding-bottom: 125px;
 }
 /*Footer*****************/
 .footer {
